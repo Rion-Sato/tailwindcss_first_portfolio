@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ポートフォリオサイト</title>
+</head>
+<body class="box-border max-w-full font-inter bg-background text-mainText">
+
+    <!-- ナビゲーションバー（固定ヘッダー） -->
+    <header class="fixed z-10 w-full pt-6">
+        <div class="flex justify-between items-center px-10">
+            <div class="font-semibold text-4xl">
+                <a href="#home">R-Code</a>
+            </div>
+            <div class="text-lg hidden lg:flex items-center font-semibold space-x-20">
+                <a href="#home" class="hover:opacity-70 transition-all duration-300">HOME</a>
+                <a href="#about" class="hover:opacity-70 transition-all duration-300">ABOUT</a>
+                <a href="#skills" class="hover:opacity-70 transition-all duration-300">SKILLS</a>
+                <a href="#works" class="hover:opacity-70 transition-all duration-300">WORKS</a>
+                <a href="#contact" class="py-2 px-5 border-2 border-mainText rounded-full hover:opacity-70 transition-all duration-300">Contact</a>
+            </div>
+            <div class="lg:hidden">
+                <i class="fa-solid fa-bars text-3xl"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- SNSセクション（固定フッター） -->
+    <footer class="fixed bottom-0 z-10 w-full pb-8">
+        <div class="flex justify-end px-12">
+            <div class="text-3xl hidden lg:flex items-center font-semibold space-x-10">
+                <a href="#" class="fa-brands fa-instagram hover:opacity-70 transition-all duration-300"></a>
+                <a href="#" class="fa-brands fa-square-x-twitter hover:opacity-70 transition-all duration-300"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- HOMEセクション -->
+    <div id="home" class="relative">
+        <img id="bgImg" src="./images/main1.png" alt="背景画像" class="absolute -z-10 h-screen w-full opacity-80 object-cover">
+        <div class="flex justify-center lg:justify-start items-center text-start px-24 h-screen w-full">
+            <div>
+                <h1 class="text-4xl lg:text-5xl leading-normal lg:leading-normal font-semibold">
+                    コード or ノーコードで
+                    <br>美しいサイトを
+                    <br>作ります
+                </h1>
+                <h3 class="text-xl mt-10 lg:text-2xl leading-normal lg:leading-normal">
+                    Create a beautiful site with coding or no-coding.
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUTセクション -->
+    <div id="about" class="flex justify-center items-center px-24 h-screen w-full">
+        <div class="">
+            <div>
+                <h1 class="text-3xl lg:text-4xl font-semibold leading-normal lg:leading-normal">
+                    ようこそ！
+                    <br>私のサイト、R-Codeへ。
+                </h1>
+                <h3 class="mt-10  text-lg lg:text-xl leading-normal lg:leading-normal">
+                    このサイトは、私のコーディングの進歩を反映させるためのサイトであると同時に、
+                    <br>自分の技術で幸せを届けたいという思いで、お仕事依頼のサイトとしても作りました。
+                </h3>
+            </div>
+            <div class="mt-20 lg:flex lg:space-x-14">
+                <img src="./images/Dark Red Neon Futuristic Instagram Profile Picture.png" alt="my_image" class="h-72 w-72 object-cover">
+                <div class="">
+                    <div class="mt-10 flex items-end space-x-8">
+                        <h2 class="font-semibold text-2xl lg:text-3xl "></h2>
+                        <h2 class="font-normal text-xl lg:text-2xl">Rion</h2>
+                    </div>
+                    <h3 class="mt-10 text-lg lg:text-xl leading-normal lg:leading-normal">
+                        大学生。
+                        <br>経営学を専攻。
+                        <br>独学でデータサイエンス、フロントエンド開発。
+                        <br>フットサルサークルに所属。
+                        <br>趣味はサッカー、読書、HIIT。
+                    </h3>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- SKILLSセクション -->
+    <div id="skills" class="flex justify-center items-center px-24 h-screen w-full">
+        <div class="">
+            <!-- 見出し -->
+            <div class="text-center">
+                <h1 class="text-3xl lg:text-4xl font-semibold leading-normal lg:leading-normal">
+                    SKILLS
+                </h1>
+            </div>
+
+            <!-- コンテンツ -->
+            <div class="lg:flex mt-20 lg:mt-28 lg:justify-between space-y-14 lg:space-y-0 lg:space-x-14">
+                <div class="text-center lg:w-72">
+                    <div>
+                        <h2 class="font-semibold text-2xl lg:text-3xl">デザイン</h2>
+                        <h2 class="mt-2 lg:mt-4 text-lg lg:text-xl leading-normal lg:leading-normal">Design</h2>
+                    </div>
+                    <i class="my-8 lg:my-14 fa-solid fa-pen-nib text-8xl lg:text-9xl"></i>
+                    <p class="lg:text-start">Figmaなどのツールを使用して、デザインを作成します。</p>
+                </div>
+                <div class="text-center lg:w-72">
+                    <div>
+                        <h2 class="font-semibold text-2xl lg:text-3xl">コーディング</h2>
+                        <h2 class="mt-2 lg:mt-4 text-lg lg:text-xl leading-normal lg:leading-normal">Coding</h2>
+                    </div>
+                    <i class="my-8 lg:my-14 fa-solid fa-code text-8xl lg:text-9xl"></i>
+                    <p class="lg:text-start">HTML/CSS/JavaScriptのプログラミング言語を用いて、サイトを製作します。</p>
+                </div>
+                <div class="text-center lg:w-72">
+                    <div>
+                        <h2 class="font-semibold text-2xl lg:text-3xl">データ分析</h2>
+                        <h2 class="mt-2 lg:mt-4 text-lg lg:text-xl leading-normal lg:leading-normal">Data Analysis</h2>
+                    </div>
+                    <i class="my-8 lg:my-14 fa-solid fa-chart-simple text-8xl lg:text-9xl"></i>
+                    <p class="lg:text-start">BIツールとPython/SQLのプログラミング言語を用いて、データ分析を行います。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WORKSセクション -->
+    <div id="works" class="flex justify-center items-center px-24 h-screen w-full">
+        <div class="">
+            <!-- 見出し -->
+            <div class="text-center">
+                <h1 class="text-3xl lg:text-4xl font-semibold leading-normal lg:leading-normal">
+                    WORKS
+                </h1>
+            </div>
+
+            <!-- コンテンツ -->
+            <div class="mt-20 lg:mt-28 lg:justify-between space-y-14 lg:space-y-0">
+                <h2 class="text-center font-medium text-2xl lg:text-3xl">準備中…</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACTセクション -->
+    <div id="contact" class="flex justify-center items-center px-24 h-screen w-full">
+        <div>
+            <!-- 見出し -->
+            <div class="">
+                <h1 class="text-3xl lg:text-4xl font-semibold leading-normal lg:leading-normal">
+                    Contact
+                </h1>
+                <p class="mt-4">お仕事のご依頼などはこちらから</p>
+            </div>
+
+            <!-- コンテンツ -->
+            <div class="mt-10 lg:mt-18">
+                <div class="space-y-8">
+                    <div>
+                        <label class="block text-lg lg:text-xl font-semibold">お名前</label>
+                        <input type="text" class="w-80 mt-4 border rounded-md p-4 text-black">
+                    </div>
+                    <div>
+                        <label class="block text-xl font-semibold">メールアドレス</label>
+                        <input type="email" class="w-80 mt-4 border rounded-md p-4 text-black">
+                    </div>
+                    <div>
+                        <label class="block text-xl font-semibold">件名</label>
+                        <input type="text" class="w-80 mt-4 border rounded-md p-4 text-black">
+                    </div>
+                    <div>
+                        <label class="block text-xl font-semibold">お問い合わせ内容</label>
+                        <textarea class="w-96 h-40 mt-4 border rounded-md p-4 text-black"></textarea>
+                    </div>
+                    <button class="text-lg font-semibold px-7 py-4 bg-theme rounded-full bg-buttonColor hover:opacity-70 transition-all duration-300">
+                        送信する
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
